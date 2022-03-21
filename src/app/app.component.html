@@ -1,2 +1,12 @@
-<app-hello-world></app-hello-world>
+<!-- <app-hello-world></app-hello-world>
+<app-hello-europe></app-hello-europe> -->
+<header>header</header>
+<main>
+  <nav>
+    <a routerLink="world" routerLinkActive="test">World</a>
+    <a [routerLink]="['europe', countryCode]" routerLinkActive="test">Europe</a>
+  </nav>
+  <router-outlet></router-outlet>
+</main>
 
+<footer>stopka</footer>

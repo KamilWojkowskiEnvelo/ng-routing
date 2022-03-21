@@ -2,6 +2,6 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-hello-world',
-  template: 'Angular v13',
+  template: `<p>{{ 'hello-world works!' | upperCaseFirstLetter }}</p>`,
 })
 export class HelloWorldComponent {}
